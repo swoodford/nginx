@@ -13,6 +13,7 @@
 # 	mv ../nginx/nginxdenylist.conf ../nginx/nginxdenylist-$DATE.conf
 # fi
 
+cd ../iptables
 while read blacklist
 do
 	echo "deny "$blacklist";" >> ../nginx/nginxdenylist2.conf
