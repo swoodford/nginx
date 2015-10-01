@@ -12,3 +12,4 @@ A collection of scripts for automating various tasks with Nginx
 - **nginx-realip.sh** Reconfigures Nginx to log traffic using the real client IP address specified in the X-Forwarded-For header added by an AWS ELB
 - **nginx-referrers.sh** Quickly list unique referrer URLs from Nginx access log
 - **nginxdenylist.conf** Nginx deny conf based on iptables/blacklist
+- **ssl-gen.sh** Generate SHA-256 self-signed SSL certificate
